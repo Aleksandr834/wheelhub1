@@ -1,0 +1,482 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    background-image: 
+    url("/img/photo1_glavn.jpg"),
+    url("bac");
+
+    background-size: cover;      /* изображение растягивается по размеру блока */
+    background-position: center; /* выравнивание по центру */
+    background-repeat: no-repeat; /* не повторять изображение */
+    height: 100vh; /* или фиксированная высота, например 400px */
+}
+
+
+.conteniar {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px);
+}
+
+.header-center h1 {
+    font-size: 55px
+}
+
+.header-content {
+  text-align: center;
+  color: white;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+    padding-top: 50px;
+    justify-content: center;
+    margin-right: 350px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.icon {
+    padding-top: 45px;
+}
+
+.icon img {
+    margin: 5px
+}
+
+
+.main-text1 h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.main {
+    background-color:#656565 ;
+}
+
+.cartohki {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cartochka {
+  position: relative;
+  display: inline-block;
+}
+
+.cartochka img {
+    display: block;
+    width: 400px;
+    height: 350px;
+    filter: brightness(80%);
+    border-radius: 15px;
+}
+
+.text-over {
+  position: absolute;
+  top: 50%; /* по центру вертикали */
+  left: 50%; /* по центру горизонтали */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+.image-raz {
+    object-fit: cover;
+}
+
+.hut h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.cartochki2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.cartochka2 {
+    background-color: #DADADA;
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.photo1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-cartochka2 h2 {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.text-car {
+    text-align: center;
+    font-size: 35px;
+}
+
+.button a {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.cnop1 {
+    width: 100%;
+    padding: 15px;
+    background-color: #FF5E5E;
+}
+
+.cnop2 {
+    width: 100%;
+    padding: 15px;
+    background-color: #646165; 
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px;
+}
+
+.icon-zvezda {
+    padding: 10px;
+}
+
+.stock {
+    background-color: #808080;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.stock h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.slider {
+  position: relative;
+  width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide {
+  display: none;
+  position: relative;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  top: 50px;
+  left: 5%;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.0);
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
+
+.caption p {
+    position: absolute;
+    font-size: 30px;
+    top: 300px;
+    font-weight: normal;
+}
+
+.caption h3 {
+    margin-left: 200px;
+    font-size: 35px;
+}
+
+
+.text-zag {
+    width: 700px;
+}
+
+.zag2 {
+    margin-left: 110px;
+}
+
+.slide img {
+    filter: brightness(70%);
+}
+
+.slides {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.primus {
+    background-color: #4D4D4D;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.zag3 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.primus1 {
+  display: flex;
+  align-items: flex-start; /* или center, если нужно выравнивание по центру */
+  gap: 15px; /* расстояние между иконкой и текстом */
+  width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon-primus img {
+  display: block;
+  width: 35px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.primus-text h1 {
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+.primus-text p {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.primus1 h1  {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+.primus1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.primus-conteniner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center; /* выравнивает иконку и заголовок по вертикали */
+  gap: 10px; /* расстояние между иконкой и заголовком */
+  text-align: left;
+}
+
+.icon-title h1 {
+    margin-top: 10px;
+}
+
+
+.o_komn {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.content-komn p {
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 50px 40px;
+}
+
+.image-komn img{
+    border-radius: 15px;
+}
+
+.contact {
+    background-color: #737373;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+
+
+
+.text-contact h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* gap: 10px; */
+  padding: 20px;
+  flex-wrap: wrap; /* чтобы на мобильных переходило в колонку */
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 300px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.contact-map {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-map iframe {
+  width: 700px;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
+}
+
+.grafic ul {
+    list-style: none;
+}
+
+.otzif {
+    background-color: #4C4C4C;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.text-otzif h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.content1 {
+    width: 300px;
+}
+
+.image-content img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.content1 h2 {
+    color: white;
+    text-align: center;
+}
+
+.content1 p {
+    color: white;
+}
+
+.content-otzif {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #585858;
+    width: 100%;
+}
+
+.content-footer {
+    display: flex;
+    padding: 40px 40px;
+}
+
+.content2 {
+    display: flex;
+    align-items: center; /* выравнивание по вертикали */
+    gap: 10px; /* расстояние между иконкой и текстом */
+    margin-left: 20px ;
+    margin-top: -40px;
+}
+
+.text-footer {
+    color: white;
+    margin-top: 60px;
+}
